@@ -1,4 +1,4 @@
-
+COPY employee.emp (employee_id,department,lastname,years_with_company,hiredate,jobtitle,salary,managerid) FROM 'employee_entries.csv' WITH DELIMITER='|' AND HEADER=TRUE;
 
 select employee_id, lastname, jobtitle, hiredate from emp;
 
